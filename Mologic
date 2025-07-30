@@ -1,0 +1,18 @@
+MOLOGIC/
+├── README.md
+├── LICENSE
+├── mologic/
+│   ├── __init__.py
+│   ├── glyphs.py           # Handles glyph data, symbology, encoding
+│   ├── tonefield.py        # For frequency / resonance logic
+│   ├── gate.py             # Logic for thresholds, transitions, portals
+│   ├── rituals.py          # Step-by-step ritual logic
+│   ├── geometry.py         # Sacred geometry + transformation logic
+│   └── source.py           # Definitions of Source energy / core functions
+├── tests/
+│   ├── test_glyphs.py
+│   └── test_rituals.py
+├── examples/
+│   └── walk_the_portal.ipynb
+├── requirements.txt
+└── .gitignore
